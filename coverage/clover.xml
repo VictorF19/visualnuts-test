@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644534487458" clover="3.2.0">
+  <project timestamp="1644534487458" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2" elements="33" coveredelements="33" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+    <file name="generateList.js" path="C:\Users\ferna\Documents\repo\visualnuts-test\src\exercise1\generateList.js">
+      <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+      <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="100" type="stmt"/>
+      <line num="15" count="100" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="53" type="stmt"/>
+      <line num="19" count="47" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="33" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="47" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="20" type="stmt"/>
+      <line num="29" count="100" type="stmt"/>
+      <line num="30" count="100" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

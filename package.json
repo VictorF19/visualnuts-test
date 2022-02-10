@@ -4,10 +4,13 @@
   "description": "Visual Nuts coding test",
   "main": "index.js",
   "scripts": {
-    "exercise1": "node ./src/exercise1.js",
+    "exercise1": "node ./src/exercise1/exercise1exec.js",
     "exercise2": "node ./src/exercise2.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./test --coverage"
   },
   "author": "Victor F.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
