@@ -1,4 +1,4 @@
-const validateInput = (targetMaxInteger) => Number.isInteger(targetMaxInteger) && targetMaxInteger >= 1;
+const validateInput = (targetMaxInteger) => Number.isInteger(targetMaxInteger) && targetMaxInteger > 1;
 
 function generateListToBePrinted(targetMaxInteger) {
 
@@ -17,7 +17,7 @@ function generateListToBePrinted(targetMaxInteger) {
         } else {
 
             if (i % 3 === 0) {
-                valueToBePrinted = 'Visual ';
+                valueToBePrinted = 'Visual' + (i % 5 === 0 ? ' ' : '');
             }
 
             if (i % 5 === 0) {
