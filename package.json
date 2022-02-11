@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "exercise1": "node ./src/exercise1/exercise1exec.js",
-    "exercise2": "node ./src/exercise2.js",
+    "exercise2": "node ./src/exercise2/exercise2exec.js",
     "test": "jest ./test --coverage"
   },
   "author": "Victor F.",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644534487458" clover="3.2.0">
-  <project timestamp="1644534487458" name="All files">
+<coverage generated="1644535028465" clover="3.2.0">
+  <project timestamp="1644535028465" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2" elements="33" coveredelements="33" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="generateList.js" path="C:\Users\ferna\Documents\repo\visualnuts-test\src\exercise1\generateList.js">
       <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
