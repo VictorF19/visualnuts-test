@@ -50,6 +50,9 @@ const selectMostCommonLanguages = (languagesOccurrences) => {
 }
 
 function reportCountries(countries) {
+
+    if (!countries || !countries.length) return 'Error: This input is invalid to this function'
+
     const countryReport = generateReport(countries);
 
     return {

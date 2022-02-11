@@ -1,5 +1,5 @@
 const reportCountries = require('./reportCountries');
-console.log(reportCountries([
+reportCountries([
     {
         country: "US",
         languages: ["en"]
@@ -20,4 +20,4 @@ console.log(reportCountries([
         country: "ES",
         languages: ["es"]
     }
-]));
+]);
