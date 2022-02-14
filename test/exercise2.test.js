@@ -37,6 +37,47 @@ test('Validate if the report results for the countries are right', () => {
     expect(report).toStrictEqual(expected);
 });
 
+test('Validate if the report results for the countries are right', () => {
+
+    const expected = {
+        numberOfCountries: 6,
+        countryWithMostLanguagesIncludingGerman: 'SW',
+        countryWithMostLanguages: 'SW',
+        mostCommonLanguage: ["en"]
+    };
+
+    const input = [
+        {
+            country: "PT",
+            languages: ["pt"]
+        },
+        {
+            country: "BR",
+            languages: ["pt"]
+        },
+        {
+            country: "CA",
+            languages: ["en", "fr"]
+        },
+        {
+            country: "SW",
+            languages: ["de", "en", "fr"]
+        },
+        {
+            country: "US",
+            languages: ["en"]
+        },
+        {
+            country: "ES",
+            languages: ["es"]
+        }
+    ]
+
+    const report = reportCountries(input);
+
+    expect(report).toStrictEqual(expected);
+});
+
 test('Validate if the function treats the invalid inputs', () => {
 
     const report = reportCountries([]);
