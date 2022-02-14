@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644613073523" clover="3.2.0">
-  <project timestamp="1644613073523" name="All files">
+<coverage generated="1644782617743" clover="3.2.0">
+  <project timestamp="1644782617744" name="All files">
     <metrics statements="42" coveredstatements="42" conditionals="26" coveredconditionals="26" methods="8" coveredmethods="8" elements="76" coveredelements="76" complexity="0" loc="42" ncloc="42" packages="2" files="2" classes="2"/>
     <package name="exercise1">
       <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
       <file name="generateList.js" path="C:\Users\ferna\Documents\repo\visualnuts-test\src\exercise1\generateList.js">
         <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
-        <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="1" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="100" type="stmt"/>

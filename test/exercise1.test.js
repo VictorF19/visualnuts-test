@@ -37,3 +37,10 @@ test('Validate if the function treats the invalid inputs', () => {
 
     expect(generatedList.length).toBe(0);
 });
+
+test('Validate if the function treats the invalid inputs', () => {
+    
+    const generatedList = generateListToBePrinted(-2);
+
+    expect(generatedList.length).toBe(0);
+});
