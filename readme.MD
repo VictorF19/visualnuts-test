@@ -9,6 +9,6 @@
 - To run the exercise 2, use: npm run exercise2
 
 ## How to run the tests
-- Tor run test, use: npm run test
+- To run test, use: npm run test
 
 
